@@ -31,7 +31,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(WindowWidth ,WindowHeight);
+  createCanvas(DisplayWidth -16 ,DisplayHeight - 110);
 
   playerShip = createSprite(displayWidth/2, displayHeight - 150 , 50, 50);
   playerShip.addImage(playerShipSprite);
